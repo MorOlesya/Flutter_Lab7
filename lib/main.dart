@@ -1,5 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:slot_machine_lab6/slot_machine.dart';
 
 void main() {
-  runApp();
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgroundColor: Colors.deepPurple,
+        body: SlotMachine(),
+      ),
+    )
+  );
 }
