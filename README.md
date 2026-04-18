@@ -39,7 +39,7 @@ flutter run -d edge
 
 Скачать готовый APK:
 
-[app-release.apk](build/app/outputs/flutter-apk/app-release.apk)пше 
+[app-release.apk](build/app/outputs/flutter-apk/app-release.apk)
 
 ## Технологии
 
