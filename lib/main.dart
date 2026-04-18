@@ -7,7 +7,10 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.deepPurple,
-        body: SlotMachine(),
+        body: Scaffold(
+          backgroundColor: Colors.deepPurple,
+          body: SlotMachine(),
+        )
       ),
     )
   );
