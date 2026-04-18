@@ -1,17 +1,56 @@
-# slot_machine_lab6
+# Учебное приложение. 🎰 Слот-машина
+---
 
-A new Flutter project.
+Простое Flutter-приложение - симулятор казино. Крути барабаны, собирай одинаковые символы и выигрывай монеты.
 
-## Getting Started
+## Скриншоты
 
-This project is a starting point for a Flutter application.
+|Главный экран|Победа|Монеты закончились|
+|:-:|:-:|:-:|
+|![](steps/main_screen.png)|![](steps/win.png)|![](steps/no_coins.png)|
 
-A few resources to get you started if this is your first Flutter project:
+## Как играть
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Нажмите **КРУТИТЬ** чтобы запустить барабаны
+* Три одинаковых символы - победа (+3 монеты)
+* Три семерки - джекпот (+10 монет)
+* Разные символы - проигрыш (-1 монета)
+* Начните заново кнопкой **Начать заново**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Запуск проекта
+
+**Требования:** Flutter 3.x, Dart 3.x
+
+```
+# Клонировать репозиторий
+git clone https://github.com/MorOlesya/Flutter_Lab7.git
+
+# Перейти в папку
+cd slot_machine
+
+# Установить зависимости
+flutter pub get
+
+# Запустить в Edge
+flutter run -d edge
+```
+
+## Установка на Android
+
+Скачать готовый APK:
+
+[](build/app/outputs/flutter-apk/app-release.apk)
+
+## Технологии
+
+* **Flutter** 3.41.2
+* **Dart** 3.11.0
+* **Платформы:** Web, Android
+
+## Автор
+
+**ФИО:** Морозова О. С.
+
+**Группа:** ИСП-231
+
+Лабораторная работа №7, 2026
